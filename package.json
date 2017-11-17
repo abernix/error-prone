@@ -1,13 +1,16 @@
 {
   "name": "error-prone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Great for apps which are destined to fail.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "echo \"Error: Success\" && exit 255"
   },
-  "keywords": ["failure", "error"],
+  "keywords": [
+    "failure",
+    "error"
+  ],
   "author": "Jesse Rosenberger",
   "homepage": "https://github.com/abernix/error-prone",
   "bugs": "https://github.com/abernix/error-prone/issues",
